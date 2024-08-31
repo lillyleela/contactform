@@ -1,0 +1,112 @@
+:root{
+    --green-200-lighter: hsl(148, 38%, 91%);
+    --green-600-medium: hsl(169, 82%, 27%);
+    --red: hsl(0, 66%, 54%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-500-medium: hsl(186, 15%, 59%);
+    --Grey-900-darker: hsl(187, 24%, 22%);
+}
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:var(--green-200-lighter);
+}
+h5,h6{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight:700;
+}
+
+.form-layout{
+    background-color:var(--White);
+    padding: 30px;
+    border-radius: 10px;
+}
+span{
+    color:var(--red);
+}
+.radio{
+    border: 1px solid #dddd;
+    padding: 7px 48px 7px 10px;
+    border-radius: 5px;
+}
+.radio2{
+    border: 1px solid #dddd;
+    padding: 7px 54px 7px 10px;
+    border-radius: 5px;
+}
+.form-control:focus,.form-control:active,.form-check-input:checked{
+    box-shadow:none;
+    border:1px solid var(--green-600-medium);
+}
+.fields{
+    margin:10px 0px;
+}
+.form-field{
+    padding:0px;
+}
+.email-field{
+    padding-left:0px;
+}
+label{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight:400;
+    font-size:16px;
+}
+.enquiry-check{
+    border: 1px solid hsl(169deg 24.42% 89.58%);;
+    border-radius: 8px;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+}
+#radio-selected{
+    display:none;
+}
+.error{
+    color:var(--red);
+}
+.success-box{
+    background-color:var(--Grey-900-darker);
+    color:var(--White);
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+}
+.completing-form{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight:400;
+    font-size:13px;
+    margin-bottom:0px;
+    color:hsl(0deg 26.23% 94.93%);
+}
+.subbtn{
+    background-color:var(--green-600-medium);
+    padding: 8px 0px;
+    border-radius: 5px;
+    border: none;
+    color: var(--White);
+}
+@media(max-width:375px){
+    #consent label{
+        font-size:13px;
+    }
+    .lastnamediv{
+        padding-left:0px;
+    }
+}
+
+
+ 
